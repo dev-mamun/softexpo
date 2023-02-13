@@ -32,8 +32,6 @@
 
 ### 🛠 Tech Stack <a name="tech-stack"></a>
 
-> This project built with html & css.
-
 - HTML
 - CSS
 - Bootstrap
@@ -42,11 +40,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- [ ] Intro
-- [ ] Exhibitors
-- [ ] Speakers
+- Intro
+- Exhibitors
+- Speakers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
