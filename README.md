@@ -5,10 +5,9 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+- [Tech Stack](#tech-stack)
+- [Key Features](#key-features)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -31,9 +30,7 @@
 > It will focus on creating more collaborative relationships at the national and international level, inviting trade delegations from various countries to experience the immense potential of the Bangladeshi ICT industry. 
 > As the country has taken a great leap in Digital Wave, this time SoftExpo will be bigger and better than ever before. The event this year will be a congregation of ICT companies, personalities, professionals, key policymakers, industry leaders, and other ICT stakeholders.
 
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
+### 🛠 Tech Stack <a name="tech-stack"></a>
 
 > This project built with html & css.
 
