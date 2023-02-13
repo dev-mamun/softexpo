@@ -144,7 +144,8 @@ Feel free to check the [issues page](../../issues/).
 
 > Give a ⭐️ if you like this project!
 
-If you like this project...
+> If you like this project feel comfortable to endorse the author. 
+> You can contact the author via [Twitter](https://twitter.com/CoderKnight) or [Linkedin](https://www.linkedin.com/in/dev-mamun/) or directly message at mamun1214@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,6 +161,7 @@ I would like to thank...
 - Microverse guides
 - Google Search
 - [SoftExpo](https://softexpo.com.bd/home)
+- [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
