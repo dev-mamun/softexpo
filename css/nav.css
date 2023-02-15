@@ -1,0 +1,138 @@
+/**
+ * Project: softexpo
+ * File: nav.css
+ * Created: 2/14/23
+ * Author: Abdullah Al Mamun <mamun1214@gmail.com>
+ */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+}
+
+.toolbar {
+  width: 100vw;
+  background-color: rgb(62, 62, 62);
+  justify-content: flex-end;
+  display: none;
+}
+
+.toolbar > ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+
+.nav-menu li {
+  padding: 0.5rem;
+  list-style-type: none;
+}
+
+.toolbar > ul > li {
+  list-style-type: none;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.nav-menu {
+  display: none;
+  align-items: center;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #4e4b4b;
+}
+
+.nav-menu li a:hover {
+  color: #ec5242;
+}
+
+.nav-menu li:last-child {
+  border: 2px solid #ec5242;
+  color: #ec5242;
+}
+
+.nav-menu li:last-child a {
+  color: #ec5242;
+}
+
+.toolbar ul li:last-child {
+  border: none;
+}
+
+.nav-bar {
+  background-color: rgb(211 211 211 / 40%);
+  width: 100vw;
+  display: flex;
+  padding: 0 6%;
+  justify-content: space-between;
+}
+
+.logo {
+  background-image: url('/images/logo.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 8rem;
+  height: 3rem;
+  display: none;
+}
+
+.hamburger {
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 26px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #555;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.fa-bars {
+  font-size: 2rem;
+  color: #4e4b4b;
+}
+
+.menu-open {
+  display: none;
+}
+
+.navbar-colse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.fa-times {
+  font-size: 8vw;
+}
+
+.show {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 5vw;
+  padding-bottom: 3rem;
+}

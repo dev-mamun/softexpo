@@ -1,0 +1,371 @@
+/**
+ * Project: softexpo
+ * File: app.css
+ * Created: 2/14/23
+ * Author: Abdullah Al Mamun <mamun1214@gmail.com>
+ */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import "common.css";
+@import "nav.css";
+
+#intro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  min-height: 50rem;
+  background: url("/images/16.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: top;
+  opacity: 0.08;
+}
+
+.greeting {
+  font-size: 2rem;
+  color: #ec5242;
+  padding: 10rem 0 0.5rem;
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ec5242;
+  padding: 0 0 1rem;
+}
+
+.description {
+  padding: 1rem;
+  color: #272a31;
+  background-color: rgb(247, 247, 247);
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+.time {
+  font-size: 2.5rem;
+  color: #4d4d4d;
+  font-weight: 900;
+  padding: 1rem 0 0.5rem;
+}
+
+.venue {
+  color: #b1b1b1;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 0 3rem;
+}
+
+#pavilion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272a31;
+  background-image: url(/images/pattern_bg.png);
+  background-repeat: repeat;
+  background-position: top;
+  z-index: 1;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+#pavilion > h2 {
+  padding: 2rem 0 0.5rem;
+  color: #d3d3d3;
+}
+
+.info hr {
+  border: 1px solid #d3d3d3;
+  width: 12%;
+}
+
+#pavilion > hr {
+  width: 8%;
+  height: 2px;
+  background-color: #ec5242;
+  border: 1px solid #ec5242;
+}
+
+.pavilions {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0 0;
+}
+
+.stall {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  width: 100%;
+}
+
+.stall img {
+  height: 100px;
+  width: 100px;
+}
+
+.stall h3 {
+  text-align: center;
+  color: #ec5242;
+  width: 50%;
+}
+
+.stall p {
+  color: #d3d3d3;
+  padding: 0 0.3rem;
+  text-align: left;
+}
+
+#speakers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+#speakers > hr {
+  border: 1px solid #ec5242;
+  width: 12%;
+}
+
+.speakers {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem 0;
+}
+
+.speaker {
+  display: flex;
+  height: 30%;
+  gap: 0.5rem;
+}
+
+.speaker_image {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.speaker_image .photo {
+  width: 120px;
+  height: 120px;
+}
+
+.info {
+  margin-left: 5px;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #272a31;
+}
+
+.position {
+  color: #ec5242;
+  font-style: italic;
+  padding: 0.5rem 0;
+}
+
+.btn-default i {
+  font-size: 1rem;
+  color: #ec5242;
+  font-weight: 700;
+}
+
+#sponsors {
+  width: 100%;
+  padding: 2rem;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#sponsors h3 {
+  font-size: 1.5rem;
+  padding: 0 0 0.5rem;
+  color: #d3d3d3;
+}
+
+#sponsors hr {
+  width: 5%;
+  border: 1px solid #ec5242;
+}
+
+.sponsors {
+  padding-top: 2rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.sponsors li {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+footer > div {
+  padding: 1.5rem 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+footer > div > a.logo {
+  display: block;
+}
+
+.copyright {
+  color: #606060;
+}
+
+.copyright > p:nth-child(1) {
+  font-size: 0.8rem;
+  color: #484848;
+}
+
+.copyright > p:nth-child(2) {
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .toolbar {
+    display: flex;
+  }
+
+  .nav-bar {
+    height: 70px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 7px -3px rgba(166, 161, 166, 1);
+    -moz-box-shadow: 0 5px 7px -3px rgba(166, 161, 166, 1);
+    box-shadow: 0 5px 7px -3px rgba(166, 161, 166, 1);
+  }
+
+  .logo {
+    margin-top: 10px;
+    display: block;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .menu-open {
+    display: block;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  .nav-menu li {
+    margin-left: 35px;
+  }
+
+  .description {
+    width: 70%;
+    margin-right: 20%;
+  }
+
+  .pavilions {
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .stall {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .stall img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .stall h3 {
+    width: 100%;
+  }
+
+  .stall p {
+    text-align: center;
+  }
+
+  .speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .speakers button {
+    display: none;
+  }
+
+  .sponsors {
+    width: 100%;
+  }
+
+  .sponsors img {
+    width: 150px;
+    height: auto;
+  }
+
+  footer {
+    margin: 20px 0;
+  }
+
+  footer > div {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .copyright > p:nth-child(2) {
+    display: block;
+  }
+
+  .contact {
+    line-height: 133%;
+    padding: 2rem 0 3rem;
+  }
+
+  .event {
+    width: 80% !important;
+    flex-direction: row !important;
+  }
+}
