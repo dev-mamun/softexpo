@@ -152,10 +152,6 @@
   padding: 3rem 0;
 }
 
-.speakers > div:nth-child(n+3) {
-  display: none;
-}
-
 .speaker {
   display: flex;
   height: auto;
@@ -247,6 +243,10 @@ footer > div {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+}
+
+.speakers > div:nth-child(n+3) {
+  display: none;
 }
 
 footer > div > a.logo {
@@ -342,10 +342,6 @@ footer > div > a.logo {
     grid-template-columns: 1fr 1fr;
   }
 
-  .speakers > div:nth-child(n+3) {
-    display: flex;
-  }
-
   #speakers button {
     display: none;
   }
@@ -366,6 +362,10 @@ footer > div > a.logo {
   footer > div {
     width: 100%;
     padding: 10px;
+  }
+
+  .speakers > div:nth-child(n+3) {
+    display: flex;
   }
 
   .copyright > p:nth-child(2) {

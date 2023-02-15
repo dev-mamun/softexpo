@@ -50,7 +50,7 @@ document.onreadystatechange = () => {
       image: 'images/s6.jpg',
     }];
 
-    speakers.forEach((item, index) => {
+    speakers.forEach((item) => {
       const parent = document.getElementById('items');
       const speaker = `<div class="speaker">
                 <div class="speaker_image">
