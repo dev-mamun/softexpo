@@ -152,10 +152,15 @@
   padding: 3rem 0;
 }
 
+.speakers > div:nth-child(n+3) {
+  display: none;
+}
+
 .speaker {
   display: flex;
-  height: 30%;
+  height: auto;
   gap: 0.5rem;
+  font-size: 14px;
 }
 
 .speaker_image {
@@ -261,6 +266,10 @@ footer > div > a.logo {
   display: none;
 }
 
+#speakers button {
+  width: 90%;
+}
+
 @media all and (min-width: 768px) {
   .toolbar {
     display: flex;
@@ -333,7 +342,11 @@ footer > div > a.logo {
     grid-template-columns: 1fr 1fr;
   }
 
-  .speakers button {
+  .speakers > div:nth-child(n+3) {
+    display: flex;
+  }
+
+  #speakers button {
     display: none;
   }
 
