@@ -11,6 +11,7 @@
 
 .greeting {
   text-align: center;
+  padding: 5rem 0 0.5rem;
 }
 
 .headline {
@@ -25,15 +26,18 @@
   padding: 1rem;
   color: #272a31;
   z-index: 1;
+  height: 100px;
+  margin-bottom: 20px;
 }
 
 .contact {
   color: #272a31;
   font-size: 1rem;
-  padding: 2rem 0 0;
   text-align: center;
   width: 100%;
   margin-bottom: 50px;
+  padding-bottom: 50px;
+  height: 110px;
 }
 
 .contact div {
@@ -117,4 +121,43 @@
 
 .bg {
   min-height: 35rem;
+}
+
+#logo-design {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#logo-design h3 {
+  width: 100%;
+  font-size: 20px;
+  padding: 5px;
+  line-height: 25px;
+  color: #221b1b;
+}
+
+#logo-design hr {
+  border: 1px solid #ec5242;
+  width: 5%;
+  margin: 15px;
+}
+
+.ltext {
+  width: 80%;
+  text-align: center;
+  margin: 10px 0 45px 0;
+}
+
+.alogo {
+  border: 1px solid lightgrey;
+  width: 70%;
+}
+
+.alogo > img {
+  width: 100%;
+  height: 100%;
 }

@@ -31,7 +31,7 @@
 .greeting {
   font-size: 2rem;
   color: #ec5242;
-  padding: 10rem 0 0.5rem;
+  padding: 8rem 0 0.5rem;
 }
 
 .headline {
@@ -391,5 +391,10 @@ footer > div > a.logo {
   .event {
     width: 80% !important;
     flex-direction: row !important;
+  }
+
+  .alogo {
+    border: 1px solid lightgrey;
+    width: 30% !important;
   }
 }
