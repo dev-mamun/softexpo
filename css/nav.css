@@ -29,6 +29,7 @@ header {
 .nav-menu li {
   padding: 0.5rem;
   list-style-type: none;
+  margin-bottom: 20px;
 }
 
 .toolbar > ul > li {
@@ -65,7 +66,7 @@ header {
 }
 
 .nav-bar {
-  background-color: rgb(211 211 211 / 40%);
+  background-color: rgb(211 211 211);
   width: 100vw;
   display: flex;
   padding: 0 6%;

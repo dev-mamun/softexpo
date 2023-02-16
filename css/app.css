@@ -302,6 +302,7 @@ footer > div > a.logo {
 
   .nav-menu li {
     margin-left: 35px;
+    margin-bottom: 0!important;
   }
 
   .description {
