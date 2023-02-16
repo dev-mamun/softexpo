@@ -4,7 +4,6 @@
  * Created: 2/14/23
  * Author: Abdullah Al Mamun <mamun1214@gmail.com>
  */
-
 document.onreadystatechange = () => {
   if (document.readyState === 'complete') {
     const html = document.querySelector('html');
