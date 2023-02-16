@@ -38,14 +38,19 @@ header {
   padding: 0.5rem;
 }
 
-.nav-menu {
-  display: none;
-  align-items: center;
-}
-
 .nav-menu li a {
   text-decoration: none;
   color: #4e4b4b;
+}
+
+.toolbar > ul > li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-menu {
+  display: none;
+  align-items: center;
 }
 
 .nav-menu li a:hover {

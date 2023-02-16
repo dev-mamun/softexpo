@@ -201,7 +201,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 #sponsors h3 {
@@ -234,6 +233,7 @@ footer {
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 100px;
 }
 
 footer > div {
@@ -245,7 +245,7 @@ footer > div {
   gap: 1rem;
 }
 
-.speakers > div:nth-child(n+3) {
+.speakers > article:nth-child(n+3) {
   display: none;
 }
 
@@ -268,6 +268,12 @@ footer > div > a.logo {
 
 #speakers button {
   width: 90%;
+}
+
+@media all and (max-width: 350px) {
+  .greeting {
+    padding: 5rem 0 1rem;
+  }
 }
 
 @media all and (min-width: 768px) {
@@ -302,7 +308,7 @@ footer > div > a.logo {
 
   .nav-menu li {
     margin-left: 35px;
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
   }
 
   .description {
@@ -357,7 +363,11 @@ footer > div > a.logo {
   }
 
   footer {
-    margin: 20px 0;
+    height: 100px;
+  }
+
+  .afooter {
+    background: #2e2e2e;
   }
 
   footer > div {
@@ -365,7 +375,7 @@ footer > div > a.logo {
     padding: 10px;
   }
 
-  .speakers > div:nth-child(n+3) {
+  .speakers > article:nth-child(n+3) {
     display: flex;
   }
 

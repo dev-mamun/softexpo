@@ -52,7 +52,7 @@ document.onreadystatechange = () => {
 
     speakers.forEach((item) => {
       const parent = document.getElementById('items');
-      const speaker = `<div class="speaker">
+      const speaker = `<article class="speaker">
                 <div class="speaker_image">
                     <img class="photo" src="${item.image}" alt="${item.name}">
                 </div>
@@ -62,7 +62,7 @@ document.onreadystatechange = () => {
                     <hr>
                     <p class="detail">${item.detail}</p>
                 </div>
-            </div>`;
+            </article>`;
       parent.insertAdjacentHTML('beforeend', speaker);
     });
 
