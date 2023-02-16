@@ -52,7 +52,8 @@ document.onreadystatechange = () => {
 
     speakers.forEach((item) => {
       const parent = document.getElementById('items');
-      const speaker = `<article class="speaker">
+      if (parent !== null) {
+        const speaker = `<article class="speaker">
                 <div class="speaker_image">
                     <img class="photo" src="${item.image}" alt="${item.name}">
                 </div>
@@ -63,16 +64,19 @@ document.onreadystatechange = () => {
                     <p class="detail">${item.detail}</p>
                 </div>
             </article>`;
-      parent.insertAdjacentHTML('beforeend', speaker);
+        parent.insertAdjacentHTML('beforeend', speaker);
+      }
     });
 
     const more = document.getElementById('more');
-    const speaker = document.querySelectorAll('.speaker');
-    more.addEventListener('click', (e) => {
-      e.target.style.display = 'none';
-      speaker.forEach((e) => {
-        e.style.display = 'flex';
+    if (more !== null) {
+      const speaker = document.querySelectorAll('.speaker');
+      more.addEventListener('click', (e) => {
+        e.target.style.display = 'none';
+        speaker.forEach((e) => {
+          e.style.display = 'flex';
+        });
       });
-    });
+    }
   }
 };
