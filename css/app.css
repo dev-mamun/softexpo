@@ -21,7 +21,7 @@
   position: absolute;
   width: 100%;
   min-height: 50rem;
-  background: url("/images/16.jpg");
+  background: url("https://dev-mamun.github.io/softexpo/images/16.jpg");
   background-repeat: repeat;
   background-size: cover;
   background-position: top;
@@ -69,7 +69,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #272a31;
-  background-image: url(/images/pattern_bg.png);
+  background-image: url("https://dev-mamun.github.io/softexpo/images/pattern_bg.png");
   background-repeat: repeat;
   background-position: top;
   z-index: 1;

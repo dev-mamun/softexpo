@@ -101,14 +101,14 @@
 
 .event div:nth-child(1) {
   height: 45vh;
-  background: linear-gradient(0deg, rgba(232, 117, 107, 0.687), rgba(233, 74, 74, 0.664)), url(/images/1659090105_4.jpg);
+  background: linear-gradient(0deg, rgba(232, 117, 107, 0.687), rgba(233, 74, 74, 0.664)), url('https://dev-mamun.github.io/softexpo/images/1659090105_4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .event div:nth-child(2) {
   height: 45vh;
-  background: linear-gradient(0deg, rgba(232, 117, 107, 0.687), rgba(233, 74, 74, 0.664)), url(/images/1659090025_2.jpg);
+  background: linear-gradient(0deg, rgba(232, 117, 107, 0.687), rgba(233, 74, 74, 0.664)), url('https://dev-mamun.github.io/softexpo/images/1659090025_2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }

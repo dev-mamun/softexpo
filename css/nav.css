@@ -79,7 +79,7 @@ header {
 }
 
 .logo {
-  background-image: url('/images/logo.jpg');
+  background-image: url('https://dev-mamun.github.io/softexpo/images/logo.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   width: 8rem;
